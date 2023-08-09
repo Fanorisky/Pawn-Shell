@@ -40,7 +40,7 @@ Menyimpan file virtual dalam cache dan menjalankannya.
 
 ```sh
 
-curl https://raw.githubusercontent.com/Device-Black/Termux-Pawn/DeviceBlack/install.sh | sh
+curl https://raw.githubusercontent.com/Fanorisky/Pawn-Shell/install.sh | sh
 
 ```
 
