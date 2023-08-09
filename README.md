@@ -40,7 +40,7 @@ Menyimpan file virtual dalam cache dan menjalankannya.
 
 ```sh
 
-curl https://raw.githubusercontent.com/Fanorisky/Pawn-Shell/install.sh | sh
+curl https://raw.githubusercontent.com/Fanorisky/Pawn-Shell/main/install.sh | sh
 
 ```
 
