@@ -10,14 +10,14 @@ yes | pkg  update -y && yes | pkg upgrade -y
 yes | pkg install cmake gcc-9 git make
 
 # download project's
-git clone https://github.com/Device-Black/Termux-Pawn $HOME/termux-pawn
+git clone https://github.com/Fanorisky/Pawn-Shell $HOME/pawn-shell
 git clone https://github.com/pawn-lang/compiler $HOME/compiler
 
 # move folder
-mv $HOME/termux-pawn/pawn-lang $HOME/storage/shared
+mv $HOME/pawn-shell/pawn-lang $HOME/storage/shared
 
 # update a file from project
-mv $HOME/termux-pawn/pawncc.c $HOME/compiler/source/compiler/
+mv $HOME/pawn-shell/pawncc.c $HOME/compiler/source/compiler/
 
 # compile project
 mkdir -p $HOME/build && cd $HOME/build && cmake $HOME/compiler/source/compiler -DCMAKE_C_COMPILER=$PREFIX/bin/gcc-9 -DCMAKE_BUILD_TYPE=Release && make
@@ -29,7 +29,7 @@ mv $HOME/build/libpawnc.so $PREFIX/lib
 mv $HOME/build/pawn* $PREFIX/bin
 
 # delete all cache
-rm -rf $HOME/build $HOME/compiler $HOME/termux-pawn
+rm -rf $HOME/build $HOME/compiler $HOME/pawn-shell
 
 # clear all and credits
 echo"\033c\033[32mPemasang kompiler berhasil!"
