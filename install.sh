@@ -32,7 +32,7 @@ mv $HOME/build/pawn* $PREFIX/bin
 rm -rf $HOME/build $HOME/compiler $HOME/pawn-shell
 
 # clear all and credits
-echo"\033c\033[32mPemasang kompiler berhasil!"
+echo "\033c\033[32mPemasang kompiler berhasil!"
 echo "\n\033[0m1: Perhatikan ada folder bernama \033[33m\"pawn-lang\"\033[0m di memori internal!"
 echo "\033[0m2: Gunakan \033[33mcd /sdcard/pawn-lang\033[0m untuk navigasi ke folder ini!"
 echo "\033[0m3: Gunakan \033[33mpawncc <file.pwn>\033[0m untuk mengkompilasi skrip baru!"
