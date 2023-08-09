@@ -55,8 +55,3 @@ Menghapus file compiler.
 rm $PREFIX/bin/pawn* && rm $PREFIX/lib/libpawnc.so && exit
 
 ```
-
-
-
-# Termux-Pawn
-
